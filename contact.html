@@ -26,29 +26,85 @@
                 </ul>
             </nav>
         </div>
-    </header>
-    <div class="contact">
-        <h1>nous contacter</h1>
-        <img src="./img/Capture d'écran 2024-01-12 105153.png" alt="contact" height="70px">
+    <div class="contactez-nous">
+        <h1>Contactez-nous</h1>
         <p>
-            Vous souhaitez nous contacter ? <br> <br>Rien de plus simple ! <br><br>Si vous souhaitez avoir un devis pour
-            un tatouage. <br>Si voulez connaitre un prix pour un piercing. <br>Si vous souhaitez postuler chez nous.
-            <br> <br> Merci de remplir le formulaire ci-dessous, nous y répondrons dans les plus brefs délais ! </p>
+            Vous souhaitez nous contacter ?
+            
+            Rien de plus simple !
+            
+            Si vous souhaitez avoir un devis pour un tatouage.
+            Si voulez connaitre un prix pour un piercing.
+            Si vous souhaitez postuler chez nous.
+            
+            Merci de remplir le formulaire ci-dessous, 
+            nous y répondrons dans les plus brefs délais !
+            
+            </p>
+        <form action="/page-traitement-donnees" method="post">
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Martin" required>
+            </div>
+            <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+                <label for="sujet">Quel est le sujet de votre message ?</label>
+                <select name="sujet" id="sujet" required>
+                    <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                    <option value="probleme-compte">Problème avec un tatouage</option>
+                    <option value="question-produit">Problème avec un piercing</option>
+                    <option value="autre">Autre...</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...."
+                    required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer mon message</button>
+            </div>
+        </form>
     </div>
-    <div class="container">
-        <label for="prenom">Prénom <span>*</span></label><br>
-        <input type="text" id="prenom" name="prenom" required><br>
-        <label for="nom">Nom <span>*</span></label><br>
-        <input type="text" id="nom" name="nom" required><br>
-        <label for="email">Adresse de messagerie <span>*</span></label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Comment pouvons-nous vous aider ? <span>*</span></label><br>
-        <textarea id="message" name="message" required></textarea><br>
+    </div>
+</header>
+<footer class="flex">
+    <div class="tatyou">
+    <h4>studio tatyou</h4>
+    <p>43 Rue du Président Edouard Herriot, 69002 Lyon</p>
+    <p>Tél : 04 72 66 23 80</p>
+    </div>
+    <div class="tatouage">
+        <h4>tatouage</h4>
+        <p>Tatoueurs</p>
+        <p>Galerie de tatouages</p>
+    </div>
+    <div class="piercieurs">
+        <h4>piercing</h4>
+        <p>Pierceurs</p>
+        <p>Galerie de piercings</p>
+    </div>
+    <div class="faq">
+        <h4>f.a.q</h4>
+        <h4>actualités</h4>
+        <h4>hygiène</h4>
+    </div>
+    <div class="contact">
+        <h4>contact</h4>
+        <h4>à propos</h4>
+        <h4>suivez-nous</h4>
+        <figure>
+            <img src="./img/facebook-logo.png" alt="fb" height="20px">
+            <img src="./img/téléchargement.png" alt="twitter" height="20px">
+            <img src="./img/instagram-logo-white.png" alt="insta" height="20px">
+        </figure>
+        
+    </div>
 
-    </div>
-    <div class="envoyer">
-        <input class="message" type="submit" value="Envoyer le message">
-    </div>
+</footer>
 </body>
 
 </html>
