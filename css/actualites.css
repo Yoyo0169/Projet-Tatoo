@@ -5,8 +5,6 @@
     vertical-align: baseline;
 }
 
-
-
 .row-limit-size {
     max-width: 1600px;
     width: 100%;
@@ -16,7 +14,6 @@
 .flex {
     display: flex;
 }
-
 
 .head-top {
     height: 90px;
@@ -52,26 +49,105 @@ header nav ul {
     text-shadow: 1px 1px 0 #00ffff;
 }
 
-.titre>h1 {
+#actualites>.titre>h1 {
+    font-size: 66px;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 66px;
-    margin-right: 30px;
-    text-align: center;
-    margin-left: 650px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.titre>figure {
+    color: #cb6ce6;
+    text-shadow: 2px 2px 0 #00ffff;
+    margin-left: 15px ;
     margin-top: 35px;
+    text-align: center;
 }
 
+#actualites>.titre>figure>img {
+   margin-left: 550px;
+   margin-top: 25px;
+}
+
+#actualites>.offre>h2{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+#actualites>.offre>.saint-valentin{
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#actualites>.offre>.saint-valentin>p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 160px;
+    padding: 0 40px 0 25px;
+}
+
+#actualites>.offre>.saint-valentin>img {
+    padding-right: 25px;
+    border-radius: 90px;
+}
+
+#actualites>.fete>h2{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+#actualites>.fete>.printemps{
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#actualites>.fete>.printemps>p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 160px;
+    padding: 0 25px 0 40px;
+}
+
+#actualites>.fete>.printemps>img {
+    padding-left: 25px;
+    border-radius: 90px;
+}
+
+#actualites>.instagram>h2{
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+#actualites>.instagram>.concours{
+    justify-content: center;
+    margin-top: 80px;
+}
+
+#actualites>.instagram>.concours>p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 180px;
+    padding: 0 25px 0 40px;
+}
+
+#actualites>.instagram>.concours>img {
+    padding-left: 25px;
+    border-radius: 90px;
+}
 
 footer {
     background-color: black;
     justify-content: space-around;
     height: 130px;
+    margin-top: 25px;
 }
 
 footer>.tatyou>h4 {
@@ -126,4 +202,3 @@ footer>.tatyou>h4 {
     margin-bottom: 10px;
     margin-top: 10px;
 }
-

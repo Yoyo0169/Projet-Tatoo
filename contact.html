@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TatYou - Contact</title>
     <link rel="shortcut icon" href="./img/VRAI LOGO.png">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 
 <body>
+    <header>
+        <div class="head-top row-limit-size flex">
+            <figure>
+                <a href="file:///C:/Users/Stagiaire/Desktop/Projet-Tatoo/index.html#"><img src="./img/VRAI LOGO.png"
+                        alt="logo" height="90px"></a>
+            </figure>
+            <nav class="main-menu">
+                <ul class="flex">
+                    <li><a href="file:///C:/Users/Stagiaire/Desktop/Projet-Tatoo/index.html#">accueil</a></li>
+                    <li><a href="file:///C:/Users/Stagiaire/Desktop/Projet-Tatoo/services.html#">nos services</a></li>
+                    <li><a href="file:///C:/Users/Stagiaire/Desktop/Projet-Tatoo/actualites.html">actualités</a></li>
+                    <li><a href="file:///C:/Users/Stagiaire/Desktop/Projet-Tatoo/galerie.html">galerie</a></li>
+                    <li><a href="file:///C:/Users/Stagiaire/Desktop/Projet-Tatoo/contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="contact">
+        <h1>nous contacter</h1>
+        <img src="./img/Capture d'écran 2024-01-12 105153.png" alt="contact" height="70px">
+        <p>
+            Vous souhaitez nous contacter ? <br> <br>Rien de plus simple ! <br><br>Si vous souhaitez avoir un devis pour
+            un tatouage. <br>Si voulez connaitre un prix pour un piercing. <br>Si vous souhaitez postuler chez nous.
+            <br> <br> Merci de remplir le formulaire ci-dessous, nous y répondrons dans les plus brefs délais ! </p>
+    </div>
+    <div class="container">
+        <label for="prenom">Prénom <span>*</span></label><br>
+        <input type="text" id="prenom" name="prenom" required><br>
+        <label for="nom">Nom <span>*</span></label><br>
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="email">Adresse de messagerie <span>*</span></label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Comment pouvons-nous vous aider ? <span>*</span></label><br>
+        <textarea id="message" name="message" required></textarea><br>
 
+    </div>
+    <div class="envoyer">
+        <input class="message" type="submit" value="Envoyer le message">
+    </div>
 </body>
 
 </html>

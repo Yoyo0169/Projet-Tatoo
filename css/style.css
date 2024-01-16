@@ -185,15 +185,19 @@ h2 {
 }
 
 .avis>h3 {
-    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    height: 80px;
+    margin-top: 25px;
 }
 
 footer {
     background-color: black;
     justify-content: space-around;
     height: 130px;
+    margin-top: -6px;
 }
 
 footer>.tatyou>h4 {
