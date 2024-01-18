@@ -7,6 +7,7 @@
 
 
 
+
 .row-limit-size {
     max-width: 1600px;
     width: 100%;
@@ -15,6 +16,11 @@
 
 .flex {
     display: flex;
+}
+
+header {
+    background-image: url(../i);
+
 }
 
 
@@ -51,6 +57,32 @@ header nav ul {
     color: #cb6ce6;
     text-shadow: 1px 1px 0 #00ffff;
 }
+
+#burger {
+    position: relative;
+}
+
+
+#burger {
+    display: none;
+    background-color: #000;
+}
+
+
+
+@media screen and (max-width: 950px){
+    .main-menu{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        width: 500px;
+        padding-left: 400px;
+    }
+    
+}
+
 
 body {
     background: #ffffff;
@@ -107,9 +139,6 @@ body {
     
     form div > select {
     appearance: none;
-    background-size: 15px;
-    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
-    background-position: right 10px top 50%;
     background-repeat: no-repeat;
     }
     
@@ -138,17 +167,74 @@ body {
     margin-top: 20px;
     }
     
-    form button {
-    width: 450px;
-    max-width: 500px;
-    height: 60px;
-    font-weight: 700;
-    font-size: 28px;
-    background: white;
-    border-radius: 25px;
-
-    color: #000000;
-    }
+    .snip1564 {
+        background-color: #ffffff;
+        border: none;
+        border-bottom: 6px solid #cb6ce6;
+        border-top: 6px solid #cb6ce6;
+        color: #555;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 46px;
+        letter-spacing: 3px;
+        line-height: 34px;
+        margin: 15px 45px;
+        outline: none;
+        padding: 0 10px;
+        position: relative;
+        text-transform: uppercase;
+      }
+      
+      .snip1564:before,
+      .snip1564:after {
+        box-sizing: border-box;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: #ffffff;
+        border-radius: 50%;
+        top: -6px;
+        content: "";
+        height: 46px;
+        position: absolute;
+        width: 46px;
+        border: 6px solid #ddd;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        z-index: -1;
+      }
+      
+      .snip1564:before {
+        right: -23px;
+        border-left-color: #cb6ce6;
+        border-bottom-color: #cb6ce6;
+      }
+      
+      .snip1564:after {
+        left: -23px;
+        border-right-color: #cb6ce6;
+        border-top-color: #cb6ce6;
+      }
+      
+      .snip1564:hover,
+      .snip1564.hover {
+        background-color: #ffffff;
+      }
+      
+      .snip1564:hover:before,
+      .snip1564.hover:before,
+      .snip1564:hover:after,
+      .snip1564.hover:after {
+        -webkit-transform: rotate(225deg);
+        transform: rotate(225deg);
+      }
+      
+     
+      body {
+        background-color: #ffffff;
+      }
 
     .contactez-nous>h1 {
         font-size: 46px;

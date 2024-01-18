@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     vertical-align: baseline;
+    
 }
 
 .row-limit-size {
@@ -49,6 +50,32 @@ header nav ul {
     text-shadow: 1px 1px 0 #00ffff;
 }
 
+#burger {
+    position: relative;
+}
+
+
+#burger {
+    display: none;
+    background-color: #000;
+}
+
+
+
+@media screen and (max-width: 950px){
+    .main-menu{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        width: 500px;
+        padding-left: 400px;
+    }
+    
+}
+
+
 #actualites>.titre>h1 {
     font-size: 66px;
     text-transform: uppercase;
@@ -82,7 +109,7 @@ header nav ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
     text-align: justify;
-    margin-top: 160px;
+    margin-top: 20px;
     padding: 0 40px 0 25px;
 }
 

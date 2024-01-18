@@ -52,6 +52,32 @@ header nav ul {
     text-shadow: 1px 1px 0 #00ffff;
 }
 
+#burger {
+    position: relative;
+}
+
+
+#burger {
+    display: none;
+    background-color: #000;
+}
+
+
+
+@media screen and (max-width: 950px){
+    .main-menu{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        width: 500px;
+        padding-left: 400px;
+    }
+    
+}
+
+
 .titre>h1 {
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -75,6 +101,8 @@ header nav ul {
     transform: scale(1.2);
     transition: 0.4s;
 }
+
+
 
 footer {
     background-color: black;
@@ -134,4 +162,7 @@ footer>.tatyou>h4 {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+
+
 

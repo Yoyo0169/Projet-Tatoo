@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     vertical-align: baseline;
+   
 }
 
 .row-limit-size {
@@ -48,68 +49,36 @@ header nav ul {
     text-shadow: 1px 1px 0 #00ffff;
 }
 
-h1 {
-    font-size: 66px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-top: 20px;
+#burger {
+    position: relative;
 }
 
-.tatouage>h2 {
-    width: 600px;
-    margin-left: 200px;
-    margin-top: 85px;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
-  
+
+#burger {
+    display: none;
+    background-color: #000;
 }
 
-.prix>p {
-    width: 600px;
-    margin-left: 300px;
-    margin-top: 25px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
+
+
+@media screen and (max-width: 950px){
+    .main-menu{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        width: 500px;
+        padding-left: 400px;
+    }
+    
 }
 
-h3 {
-    font-size: 48px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-text-transform: uppercase;
-margin-top: 85px ;
-margin-bottom: 50px;
+
+#service>figure>img {
+    margin-bottom: -10px;
+    width: 1580px;
 }
-
-.piercing>ul {
-
-margin-left: 100px;
-}
-
-.piercing>ul>li {
-    margin-left: 180px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.actes>ul>li {
-    margin-left: 280px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.bijoux>ul>li {
-    margin-left: 280px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
 footer {
     background-color: black;
     justify-content: space-around;
