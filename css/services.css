@@ -77,7 +77,7 @@ header nav ul {
 
 #service>figure>img {
     margin-bottom: -10px;
-    width: 1580px;
+    width: 100%;
 }
 footer {
     background-color: black;

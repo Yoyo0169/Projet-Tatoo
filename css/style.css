@@ -25,16 +25,16 @@ header {
 }
 
 .head-top {
-    height: 90px;
+    height: 5.625em;
 }
 
 header nav ul {
     list-style-type: none;
 }
 
-
 .main-menu>ul>li {
     position: relative;
+    
 }
 
 .main-menu>ul>li>a {
@@ -45,10 +45,10 @@ header nav ul {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.188em;
     text-transform: uppercase;
     background-color: black;
-    width: 268px;
+    width: 14.13em;
     text-align: center;
 
 }
@@ -63,20 +63,7 @@ header nav ul {
 
 
 
-@media screen and (max-width: 950px){
-    .main-menu{
-        display: none;
-    }
 
-    #burger{
-        display: block;
-        width: 500px;
-        padding-left: 400px;
-    }
-
-    
-    
-}
 
 .main-menu>ul>li:hover>a {
     color: #cb6ce6;
@@ -86,15 +73,15 @@ header nav ul {
 
 
 #histoire>img {
-    border-radius: 50px;
-    margin: 50px 400px;
+    border-radius: 3.125em;
+    margin: 3.125em 25em;
 }
 
 #histoire>p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin: 50px;
-    font-size: 19px;
+    margin: 3.125em;
+    font-size: 1.188em;
     color: white;
 
 }
@@ -102,7 +89,7 @@ header nav ul {
 header>p {
     margin-left: 70px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 19px;
+    font-size: 1.188em;
     color: white;
 }
 
@@ -284,3 +271,50 @@ footer>.tatyou>h4 {
     margin-top: 10px;
 }
 
+@media screen and (max-width: 500px){
+    .main-menu{
+        display: none;
+    }
+
+    #burger{
+        display: block;
+        width: 375px;
+        padding-left: 400px;
+    }
+
+    .main-menu>ul>li>a {
+        height: auto;
+        line-height: normal;
+        width: 100%;
+        text-align: left;
+        padding: 10px; 
+    }
+
+    #histoire {
+        display: flex;
+        width: 100%;
+    }
+
+    .container {
+        margin: 10px;
+        grid-template-columns: 1fr;
+        font-size: small;
+    }
+
+    .button {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .galerie>img,
+    .tattoo>img,
+    .piercing>img {
+        margin: 0;
+    }
+
+    
+
+    
+
+    
+}
